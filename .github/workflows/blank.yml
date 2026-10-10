@@ -1,0 +1,133 @@
+#Windows Cloud PC Anydesk (Optimized)
+
+on:
+
+workflow dispatch:
+
+Jobs:
+
+build:
+
+2
+
+No wrap
+
+Cancel changes
+
+Commit changes..
+
+Marketplace
+
+Documentation
+
+Search Marketplace for Actions
+
+Featured actions
+
+Setup Node.js environment 4900 by actions
+
+nate: Start Building...
+
+runs-on: windows-latest
+
+timeout-minutes: 10080Axio de 7 dias para evitar
+
+steps:
+
+name: Downloading & Installing Essentials
+
+run: 1
+
+Baixe o arquivo bat para instalar componente essenciais
+
+Setup a Node.js envzonment by adding problem matchers and adding problem matche optionally downloading and adding it to the PATH
+
+Setup Java JDK by actions
+
+2010
+
+Set up a specific version of the Java JDK and add the command e tools to the PATΗ
+
+Invoke-WebRequest Uri "https://www.dropbox.com/scl/fi/dr310yfyg0t16@wano3fv/Dow #Pxerura o seriot hat para instalar as componentes
+
+cmd /c Downloads.bat
+
+name: Log In To AnyDesk
+
+run: I
+
+Verifica se o arquive start.bat existe antes executar
+
+if (Test-Path "start.bat") {
+
+cmd /c start.bat
+
+} else {
+
+Write-Host "Arquivo start bat não encontrado, verifique a configura έλεο
+
+name: Monitor and Restart AnyDesk if Needed
+
+run:
+
+Ronitora a conezkén do AnyDesk reinicia necessário
+
+while (Strue) {
+
+$process = Get-Process -Name "AnyDesk -ErrorAction SilentlyContinue
+
+if (not $process) (
+
+Download a Build Artifact by 1903 actions
+
+Download a buld artifact that previously uploaded in the workflow by the upload artifact action
+
+Setup .NET Core SDK by actions
+
+1211
+
+Used to build and publish NET up a specific version of the NET and authentication to private NuGet repository
+
+First interaction by actions
+
+897
+
+Greet new contributors when they create ther first issue or apen thest first pull request
+
+Featured categories
+
+Continuous integration
+
+Code quality
+
+Deployment
+
+Monitoring
+
+Project management Testing
+
+Browse all actions on the GitHub Marketplace
+
+etapas anteriores if: success() Executa esta etapa apenas run:
+
+Write-Host "AnyDesk πλέο está rodando, reiniciando..."
+
+cad /c start.bat
+
+Start-Sleep -Seconds 300 verifica
+
+name: Time Counter (Long Running Task)
+
+run:
+
+Configura para manter a náquina en execuλάλεο
+
+Start-Sleep-Seconds 604800 #7 dias de avarusato contă rus
+
+-name: Clean Up Temporary Files
+
+Reseve arquivos tesperArtes ou legs geradus
+
+Rezove-Item Downloads.bat -Force
+
+write-Host "Limpeza completa.
